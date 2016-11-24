@@ -2,8 +2,7 @@
 
 Contains examples for 'Learn You Some Erlang for Great Good!' (http://learnyousomeerlang.com/).
 
-The project is based on Jetbrains' `IntelliJ` (https://www.jetbrains.com/idea/) along with the
-plugin `intellij-erlang` (http://ignatov.github.com/intellij-erlang),
+The project is based on Jetbrains' `IntelliJ IDEA` along with the plugin `intellij-erlang`,
 although running and testing from the command line is also possible.
 
 ## Build
