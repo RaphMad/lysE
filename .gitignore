@@ -1,8 +1,4 @@
-# Erlang specific
-
 # IntelliJ IDEA specific
-*.iml
-*.ipr
-*.iws
-.idea
+workspace.xml
+tasks.xml
 out
