@@ -1,0 +1,8 @@
+# Erlang specific
+
+# IntelliJ IDEA specific
+*.iml
+*.ipr
+*.iws
+.idea
+out
