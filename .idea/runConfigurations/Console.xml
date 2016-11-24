@@ -3,6 +3,8 @@
     <option name="consoleArgs" value="" />
     <option name="workingDirPath" value="" />
     <module name="lysE" />
-    <method />
+    <method>
+      <option name="Make" enabled="true" />
+    </method>
   </configuration>
 </component>
