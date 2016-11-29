@@ -11,11 +11,11 @@ Perform `Build Project` from within IntelliJ.
 
 ## Run
 
-`Run` using the configuration `Console` from within IntelliJ.
+`Run` using the `Console` configuration from within IntelliJ.
 
 ## Test
 
-`Run` using the configuration `Test` from within IntelliJ.
+`Run` using the `Test` configuration from within IntelliJ.
 
 ## License
 
