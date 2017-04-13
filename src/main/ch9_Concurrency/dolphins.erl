@@ -6,15 +6,15 @@ dolphin1() ->
         do_a_flip ->
             io:format("How about no?~n");
         fish ->
-            io:format("So long and thanks for all the fish!~n");
-        _ ->
-            io:format("Heh, we're smarter than you humans.~n")
+            io:format("So long and thanks for all the fish!~n")
     end.
 
 dolphin2() ->
     receive
         {From, do_a_flip} ->
-            From ! "How about no?";
+            From ! {self(), do_a_flip},
+            io:format("I am "),
+            dolphin2();
         {From, fish} ->
             From ! "So long and thanks for all the fish!";
         _ ->
@@ -31,4 +31,12 @@ dolphin3() ->
         _ ->
             io:format("Heh, we're smarter than you humans.~n"),
             dolphin3()
+    end,
+    io:format("How about no?~n").
+
+
+executor() ->
+    receive
+        Func -> Func(),
+            executor()
     end.
