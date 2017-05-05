@@ -1,6 +1,6 @@
 {release,
  {"erlcount", "1.0.0"},
- {erts, "5.8.4"},
+ {erts, "8.1"},
  [{kernel, "5.1"},
   {stdlib, "3.1"},
   {ppool, "1.0.0", permanent},
